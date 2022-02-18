@@ -4,6 +4,7 @@ body {background-color: #ff668c;
         border: 1px solid #FFFAC9;
         box-shadow: 15px 8px 27px 9px rgba(0, 0, 0, 0.25);
         border-radius: 28px;
+        width: 100%;
     }
 header {
   border: 2px solid #FFFAC9;
@@ -11,6 +12,10 @@ header {
   border-radius: 28px;
   height: 15%;
   margin: 1%;
+  background: url("https://images2.imgbox.com/0c/db/zrVALjeV_o.jpg") 100%/center;
+}
+header a {
+  width: 100%;
 }
 
 ul {
@@ -49,32 +54,33 @@ nav {
   nav a {
     margin: 10%;
     padding: 8px;
+    float:left;
     
   }
-  
-  main {
-    background: #FFFAC9; 
-    border: 2px solid #FFFAC9;
-    box-shadow: 6px 3px 14px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
-    float: right;
-    width: 65%;
-    height:50%;
-    margin: 0px 1%;
-    
-  }
-
   section {
     background: #FFFAC9;  
     border: 2px solid FFAC9;
     box-sizing: border-box;
     box-shadow: 9px 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    float:left;
+    float:right;
     margin: 1%;
     width: 30%;
     height: 25%;
   }
+  main {
+    background: #FFFAC9; 
+    border: 2px solid #FFFAC9;
+    box-shadow: 6px 3px 14px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    float: left;
+    width: 65%;
+    height:50%;
+    margin: 0px 1%;
+    
+  }
+
+  
   
   map {
     background: #FFFAC9;  
